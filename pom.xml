@@ -9,14 +9,7 @@
 
     <name>MeuPrimeiroProjeto</name>
     <url>http://maven.apache.org</url>
-    
-     <distributionManagement>
-   <snapshotRepository>
-      <id>maven-releases</id>
-      <url>http://localhost:8081/repository/maven-releases/</url>
-   </snapshotRepository>
-</distributionManagement>
-  
+          
  <plugin>
    <groupId>org.sonatype.plugins</groupId>
    <artifactId>nexus-staging-maven-plugin</artifactId>
@@ -101,6 +94,12 @@
             <version>8.4-702.jdbc4</version>
         </dependency>-->
     </dependencies>
+  <distributionManagement>
+   <snapshotRepository>
+      <id>maven-releases</id>
+      <url>http://localhost:8081/repository/maven-releases/</url>
+   </snapshotRepository>
+</distributionManagement>
   
     
 </project>
