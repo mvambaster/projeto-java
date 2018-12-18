@@ -81,5 +81,15 @@
             <version>8.4-702.jdbc4</version>
         </dependency>-->
     </dependencies>
+  <distributionManagement>
+        <repository>            
+            <name>sample-release1</name>
+            <url>http://localhost:8081/repository/sample-release1/</url>            
+        </repository>        
+        <snapshotRepository>            
+            <name>sample-snapshot1</name>
+            <url>http://localhost:8081/repository/sample-snapshot1/</url>            
+        </snapshotRepository>
+    </distributionManagement>
     
 </project>
