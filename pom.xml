@@ -12,6 +12,7 @@
     
       <repositories>
         <repository>
+          <id>maven2</id>
             <name>sample-release1</name>
             <url>http://localhost:8081/repository/sample-release1/</url>
         </repository>
