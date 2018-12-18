@@ -5,7 +5,7 @@
     <groupId>br.com.meuprimeiroprojeto</groupId>
     <artifactId>MeuPrimeiroProjeto</artifactId>
     <version>1.0</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>MeuPrimeiroProjeto</name>
     <url>http://maven.apache.org</url>
