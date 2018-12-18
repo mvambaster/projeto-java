@@ -8,8 +8,8 @@
     <packaging>jar</packaging>
 
     <name>MeuPrimeiroProjeto</name>
-    <url>http://maven.apache.org</url>
-          
+    <url>http://maven.apache.org</url>   
+  <plugins>
  <plugin>
    <groupId>org.sonatype.plugins</groupId>
    <artifactId>nexus-staging-maven-plugin</artifactId>
@@ -23,13 +23,13 @@
          </goals>
       </execution>
    </executions>
-   <configuration>
-     
+   <configuration>     
       <serverId>nexus</serverId>
       <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
+  </plugins>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -99,7 +99,5 @@
       <id>maven-releases</id>
       <url>http://localhost:8081/repository/maven-releases/</url>
    </snapshotRepository>
-</distributionManagement>
-  
-    
+</distributionManagement>    
 </project>
