@@ -12,9 +12,9 @@
     
       <repositories>
         <repository>
-          <id>maven2</id>
+          <id>maven</id>
             <name>maven-releases</name>
-            <url>http://localhost:8081/repository/maven-releases/</url>
+            <url>http://nexus:8081/repository/maven-releases/</url>
         </repository>
     </repositories>
 
