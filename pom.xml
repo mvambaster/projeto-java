@@ -10,13 +10,13 @@
     <name>MeuPrimeiroProjeto</name>
     <url>http://maven.apache.org</url>
     
-      <repositories>
+      <!--repositories>
         <repository>
           <id>maven</id>
             <name>maven-releases</name>
             <url>http://nexus:8081/repository/maven-releases/</url>
         </repository>
-    </repositories>
+    </repositories-->
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -94,6 +94,17 @@
             <version>8.4-702.jdbc4</version>
         </dependency>-->
     </dependencies>
+  
+  <distributionManagement>
+        <repository>            
+            <name>maven-releases</name>
+            <url>http://nexus:8081/repository/maven-releases/</url>            
+        </repository>        
+        <snapshotRepository>            
+            <name>maven-snapshot</name>
+            <url>http://nexus:8081/repository/maven-snapshot/</url>            
+        </snapshotRepository>
+    </distributionManagement>
   
     
 </project>
